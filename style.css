@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    background-color: #f0f0f0; /* لون الخلفية الرمادي الفاتح */
+    color: #000; /* النصوص باللون الأسود */
+    padding: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.question {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0066cc; /* الأزرق الغامق */
+}
+
+button {
+    background-color: #ffcc00; /* اللون الأصفر */
+    color: black;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.fireworks {
+    width: 100%;
+    height: 200px;
+    background: url('https://media.giphy.com/media/3o7abldj0b3rxrZUxW/giphy.gif') center no-repeat;
+    background-size: contain;
+}
+
+.lanterns {
+    width: 100%;
+    height: 150px;
+    background: url('https://media.giphy.com/media/XbSyD9INbUt5m/giphy.gif') center no-repeat;
+    background-size: contain;
+    margin-top: 30px;
+}
